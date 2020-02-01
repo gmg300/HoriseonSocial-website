@@ -1,4 +1,4 @@
-/* ---General CSS--- */
+/* ------------------General CSS------------------------------ */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,9 +12,9 @@ body {
 p {
     font-size: 16px;
 }
+/* ------------------------------------------------------------ */
 
-
-/* ---Header--- */
+/* ------------------Header------------------------------------ */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -30,9 +30,10 @@ h1 {
 h1 span {
     color: #d9dcd6;
 }
+/* ------------------------------------------------------------ */
 
 
-/* ---Navigation bar--- */
+/* ------------------Navigation-------------------------------- */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,9 +51,10 @@ nav a {
     color: #ffffff;
     text-decoration: none;
 }
+/* ------------------------------------------------------------ */
 
 
-/* ---Hero image--- */
+/* ------------------Hero-------------------------------------- */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,9 +63,10 @@ nav a {
     background-size: cover;
     background-position: center;
 }
+/* ------------------------------------------------------------ */
 
 
-/* ---Content--- */
+/* ------------------Content----------------------------------- */
 section {
     width: 75%;
     display: inline-block;
@@ -97,9 +100,10 @@ section h2 {
     float: right;
     margin-left: 25px;
 }
+/* ------------------------------------------------------------ */
 
 
-/* ---Benefits--- */
+/* ------------------Benefits---------------------------------- */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -126,9 +130,10 @@ aside img {
     margin: 10px auto;
     max-width: 150px;
 }
+/* ------------------------------------------------------------ */
 
 
-/* ---Footer--- */
+/* ------------------Footer------------------------------------ */
 footer {
     padding: 30px;
     clear: both;
@@ -139,3 +144,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* ------------------------------------------------------------ */
