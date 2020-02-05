@@ -1,4 +1,4 @@
-/* ------------------General CSS------------------------------ */
+/* General */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,9 +12,8 @@ body {
 p {
     font-size: 16px;
 }
-/* ------------------------------------------------------------ */
 
-/* ------------------Header------------------------------------ */
+/* Header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -30,10 +29,8 @@ header h1 {
 header h1 span {
     color: #d9dcd6;
 }
-/* ------------------------------------------------------------ */
 
-
-/* ------------------Navigation-------------------------------- */
+/* Navigation */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -51,22 +48,16 @@ nav a {
     color: #ffffff;
     text-decoration: none;
 }
-/* ------------------------------------------------------------ */
 
-
-/* ------------------Hero-------------------------------------- */
-.hero {
+/* Hero Image */
+figure img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
 }
-/* ------------------------------------------------------------ */
 
-
-/* ------------------Main-------------------------------------- */
+/* Main Content */
 main {
     width: 75%;
     display: inline-block;
@@ -100,13 +91,12 @@ main h2 {
     float: right;
     margin-left: 25px;
 }
-/* ------------------------------------------------------------ */
 
-
-/* ------------------Benefits---------------------------------- */
+/* Sidebar Content */
 aside {
     margin-right: 20px;
     padding: 20px;
+    padding: 27px;
     clear: both;
     float: right;
     width: 20%;
@@ -115,8 +105,8 @@ aside {
     background-color: #2589bd;
 }
 
-aside div {
-    margin-bottom: 32px;
+aside section {
+    margin-bottom: 16px;
     color: #ffffff;
 }
 
@@ -130,10 +120,12 @@ aside img {
     margin: 10px auto;
     max-width: 150px;
 }
-/* ------------------------------------------------------------ */
 
+aside hr {
+    margin-bottom: 16px;
+}
 
-/* ------------------Footer------------------------------------ */
+/* Footer */
 footer {
     padding: 30px;
     clear: both;
@@ -144,4 +136,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
-/* ------------------------------------------------------------ */
+
